@@ -1,0 +1,24 @@
+#root {
+  max-width: 1170px;
+  
+  text-align: center;
+}
+
+.box{
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid magenta;
+  border-radius: 15px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+ 
+}
+.align{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.bg-color{
+  background-color: pink;
+}
+
